@@ -35,8 +35,10 @@ const Today=new Date();
 const yyyy=Today.getFullYear();
 const mm=String(Today.getMonth() + 1).padStart(2,'0');
 const dd=String(Today.getDate() + 1).padStart(2,'0');
+const ddate=String(Today.getDate()).padStart(2,'0');
 const minDate=`${yyyy}-${mm}-${dd}`;
-const fetchDate=document.getElementById('date-check');
+const mindDate=`${yyyy}-${mm}-${ddate}`;
+const fetchDate=document.getElementById('date-check').setAttribute('min',mindDate);
 
 // const getDate=document.getElementById('date-check').setAttribute('min',minDate);
 
