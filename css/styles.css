@@ -1,0 +1,986 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Martian+Mono:wght@100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sofia&display=swap');
+.carousel{
+  position: relative;
+  margin-top: -100px;
+}
+.bg-color{
+  background-color: #14603e;
+  /* background-color: #3c5d64; */
+
+}
+
+.navbar-brand img{
+    height: 120px;
+    width: 200px;
+}
+@media(max-width: 1000px){
+  .carousel-item h1{
+  font-family: "Sofia,sans-serif";
+ font-size: 16px;  
+font-weight: 700;
+}
+.carousel-item p{
+  font-family: "Martian Mono,sans-serif";
+  padding-top: 10px;
+ font-size: 12px;  
+font-weight: 400;}
+.cs-itm{
+    height: 600px;
+    position: relative;
+    margin-top: -50px;
+}
+.cs-img{
+    height: 100%;
+    object-fit: cover;
+    
+}
+.carousel-item h1{
+  font-family: "Sofia,sans-serif";
+ font-size: 40px;  
+font-weight: 700;
+padding-bottom: 10px;
+}
+
+.carousel-item h3{
+  font-family: "Lato,Martian Mono,sans-serif";
+  
+ font-size: 16px;  
+font-weight: 700;}
+.full-length-mobile{
+   height: 80vh;
+    object-fit: cover;
+}
+.b-image{
+  height: 100vh;
+  width: 100px;
+  object-fit: cover;
+}
+.home-icon img{
+  margin-left: 40%;
+  height: 70px;
+}
+}
+@media(min-width: 1200px){
+
+    .nav-item a{
+    
+  
+  list-style: none;
+  
+  
+}
+.navbar-nav{
+   gap: 20%;
+   padding-right: 20%;
+   
+}
+.active-item{
+  
+   color: #2ec27f !important;
+   font-weight: bold;
+
+}
+.cs-itm{
+    height: 90vh;
+    position: relative;
+}
+.cs-img{
+    height: 100%;
+    object-fit: cover;
+    
+}
+.carousel-item h1{
+  font-family: "DM Sans";
+ font-size: 48px;  
+font-weight: 700;
+padding-bottom: 10px;
+overflow: hidden;
+}
+.carousel-item p{
+  font-family: "Martian Mono,sans-serif";
+  
+ font-size: 20px;  
+font-weight: 400;
+overflow: hidden;
+}
+.carousel-item h3{
+  font-family: "Montserrat";
+
+  
+ font-size: 24px;  
+font-weight: 700;
+overflow: hidden;
+white-space: nowrap;
+}
+
+.b-image{
+  
+  margin-top: 100px;
+}
+.bd-image{
+  padding-top: 200px;
+}
+.home-icon img{
+  margin-left: 45%;
+  height: 70px;
+}
+.services-text{
+  display: flex;
+  align-items: center;
+  margin-left: 20%;
+  
+}
+
+.num{
+  
+ font-family: "DM Sans";
+ font-size: 3em; 
+ color: #14603e;
+ font-weight: 700;
+ 
+  
+}
+.footer-img{
+background-color: white;
+ padding-top: 5px;
+  
+  align-items: center;
+}
+.footer-img:hover{
+  background-color: rgba(0, 0, 0, 0.397);
+  color: white;
+}
+.footer-img:hover img{
+  
+  filter: brightness(0) invert(1);
+}
+.row h4{
+  
+  font-family: 'Montserrat';
+  font-weight: 800;
+  color:#3c5d64;
+
+}
+}
+.nav-item a{
+    color: white;
+    font-family: 'DM Sans';
+    font-weight: 600;
+}
+.dropdown-menu a{
+  color: #14603e;
+    font-family: 'DM Sans';
+    font-weight: 600;
+}
+.navbar-nav a:hover{
+   /* background-color: #03045e;*/
+   color: #2ec27f;
+}
+
+.carousel-caption h1 p{
+    font-family: "Sofia,sans-serif";
+}
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* adjust opacity as needed */
+  z-index: 1;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: auto;
+  background: rgba(0, 0, 0, 0); /* dark transparent overlay */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+    /* vertical center */
+  align-items: center;      /* horizontal center */
+  z-index: 2;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.cr-fnt h1{
+ font-family: "Sofia,sans-serif";
+ font-size: 60px;  
+font-weight: 700; 
+
+}
+
+.carousel-item p{
+  font-family: "Montserrat";
+  padding-top: 10px;
+ font-size: 18px;  
+font-weight: 400;
+}
+.carousel-caption {
+  position: absolute;
+  top: 5%;
+  left: 10px;
+  transform: translateY(-60%);
+  color: white;
+  z-index: 2;
+  max-width: 600px;
+}
+.carousel-caption a{
+  font-family: "Lato";
+  margin-right: 25px;
+  margin-top: 15px;
+}
+.info-box{
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+}
+.info-box img{
+  width: 70px;
+}
+.info-box h5{
+  padding-left: 20px;
+  color: #14603e;
+  font-family: "Montserrat";
+  font-weight: 900 !important;
+}
+.row-txt{
+  padding-top: 20px;
+}
+.row-txt h4{
+  
+  
+  
+  color:#8a2e5e;
+}
+.t-flex p{
+  padding-top: 10px;
+  font-weight: 600;
+  font-family: "DM Sans";
+}
+
+.home-icon h3{
+  text-align: center;
+  
+}
+.home-image{
+  width: 100%;
+  height: 100vh;
+  margin-left: auto;
+  
+  background: url("https://albertodavido.github.io/sibicareweb/images/homecare-hero.jpg");
+  background-size: cover !important;
+  background-position: center !important;   /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  
+  
+  position: relative;
+  
+  
+}
+.home-image::before{
+content: '';
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background: rgb(0,0,0,0.4);
+
+z-index: 1;
+width: 100%;
+height: 100%;
+}
+.home-text{
+  padding-top: 30px;
+  color: white;
+  z-index: 2;
+}
+.home-text h3{
+  font-family: "Sofia,sans-serif";
+  font-weight: 900 !important;
+  font-size: 48px;
+}
+.home-text p{
+font-family:  Helvetica, sans-serif;
+font-weight: bold;
+margin-top: 50px;
+line-height: 2.5em;
+font-weight: 700;
+}
+
+.services-text p{
+  font-family: 'Helvetica';
+  padding-left: 10px;
+  padding-top: 7px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.services-text h6{
+  font-family: 'Helvetica';
+  font-size: 18px;
+  font-weight: 700;
+}
+.home-icon h3{
+  font-family: 'DM Sans';
+  font-size: 24px;
+  color: #03045e;
+  font-weight: 700;
+}
+.choose-text h6{
+  padding-top: 20px;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 700;
+}
+footer{
+  background: linear-gradient(rgba(9,32,50, 0.8),rgba(9,32,50,0.8)), url("https://albertodavido.github.io/sibicareweb/images/footer3.avif");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+}
+.footer-img img{
+  height: 25px;
+  width: 25px;
+  
+}
+.footer-icon{
+  color: white;
+}
+.footer-mail{
+  display: flex;
+  text-align: center;
+  margin-left: 40px;
+  
+}
+.footer-text a{
+  text-decoration: none;
+  color: white;
+}
+.footer-text a:hover{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.705);
+  
+}
+.footer-mail a{
+  text-decoration: none;
+  color: white;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+   margin-left: 30px;
+   border-radius: 10px;
+  
+}
+.footer-mail a:hover{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.705);
+  
+}
+.footer-p {
+  margin-left:7px ;
+  padding-top: 10px;
+  
+}
+.foot-p{
+font-family: "Montserrat";
+}
+.foot-a{
+  font-family: "Sofia";
+  
+}
+.b-flex{
+  display: flex;
+  align-items: center;
+}
+.correct{
+  margin-top: 40px;
+}
+.animate{
+   opacity: 0;
+   filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 0.5s ease-out;
+}
+.home-animate{
+   opacity: 0;
+   filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 0.5s ease-out;
+}
+.home-animate.styled{
+  opacity: 1;
+ filter: blur(0);
+  transform: translateX(0);
+}
+
+/*.animate{
+  opacity: 0;
+    transform: translateY(30px);
+    transition: 0.6s ease-out;
+}
+.animate.styled{
+  opacity: 1;
+  transform: none;
+}*/
+.animate.styled{
+ opacity: 1;
+ filter: blur(0);
+  transform: translateX(0);
+
+}
+.chooser{
+   opacity: 0;
+   filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 0.5s ease-out;
+}
+.chooser.editable{
+  opacity: 1;
+ filter: blur(0);
+  transform: translateX(0);
+}
+.physio-image{
+  width: 100%;
+  height: 100vh;
+  margin-left: auto;
+  
+  background: url("https://albertodavido.github.io/sibicareweb/images/physiotherapist.jpg");
+  background-size: cover !important;
+  background-position: center !important;   /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  
+  
+  position: relative;
+}
+.physio-image::before{
+  content: '';
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: rgb(0,0,0,0.4);
+  position: absolute;
+
+}
+.hero-link{
+  text-decoration: none;
+}
+.info-box .hero-link:hover a{
+  color:#06311e57 !important;
+  transition: color 0.5s ease;
+}
+.alzheimers-image{
+  width: 100%;
+  height: 100vh;
+  margin-left: auto;
+  
+  background: url("https://albertodavido.github.io/sibicareweb/images/alzheimers-hero1.jpg");
+  background-size: cover !important;
+  background-position: center !important;   /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  
+  
+  position: relative;
+}
+.alzheimers-image::before{
+  content: '';
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: rgb(0,0,0,0.4);
+  position: absolute;
+
+}
+.palliative-image{
+  width: 100%;
+  height: 100vh;
+  margin-left: auto;
+  
+  background: url("https://albertodavido.github.io/sibicareweb/images/palliative-hero2.jpg");
+  background-size: cover !important;
+  background-position: center !important;   /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  
+  
+  position: relative;
+}
+.palliative-image::before{
+  content: '';
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: rgb(0,0,0,0.4);
+  position: absolute;
+
+}
+.respite-image{
+  width: 100%;
+  height: 100vh;
+  margin-left: auto;
+  
+  background: url("https://albertodavido.github.io/sibicareweb/images/respite-hero.jpg");
+  background-size: cover !important;
+  background-position: center !important;   /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  
+  
+  position: relative;
+}
+.respite-image::before{
+  content: '';
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: rgb(0,0,0,0.4);
+  position: absolute;
+
+}
+.transitional-image{
+  width: 100%;
+  height: 100vh;
+  margin-left: auto;
+  
+  background: url("https://albertodavido.github.io/sibicareweb/images/transitional-hero.avif");
+  background-size: cover !important;
+  background-position: center !important;   /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  
+  
+  position: relative;
+}
+.transitional-image::before{
+  content: '';
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: rgb(0,0,0,0.4);
+  position: absolute;
+
+}
+.phlebotomy-image{
+  width: 100%;
+  height: 100vh;
+  margin-left: auto;
+  
+  background: url("https://albertodavido.github.io/sibicareweb/images/phlebotomy-hero1.jpg");
+  background-size: cover !important;
+  background-position: center !important;   /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  
+  
+  position: relative;
+}
+.phlebotomy-image::before{
+  content: '';
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: rgb(0,0,0,0.4);
+  position: absolute;
+
+}
+.wellness-image{
+  
+  height: 100vh;
+  
+  
+  background: url("https://albertodavido.github.io/sibicareweb/images/wellness-hero.jpg");
+  background-size: cover !important;
+  background-position: center !important;   /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  
+  
+  position: relative;
+}
+.wellness-image::before{
+  content: '';
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: rgb(0,0,0,0.4);
+  position: absolute;
+
+}
+.home-icon h5{
+  font-family: 'DM Sans';
+  color: #03045e;
+  text-align: center;
+  font-weight: 700;
+}
+.contact-hero{
+  height: 90vh;
+  background: url("https://albertodavido.github.io/sibicareweb/images/contact-hero1.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  
+
+}
+.contact-hero::before{
+  content: '';
+  background: rgb(0,0,0,0.4);
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+.about-hero{
+  height: 70vh;
+  background: url("https://albertodavido.github.io/sibicareweb/images/about-hero.avif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  
+
+}
+.about-hero::before{
+  content: '';
+  background: rgb(0,0,0,0.4);
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+.form-area{
+  background-color:rgba(237, 236, 227, 0.89);
+  
+  padding: 30px;
+  color: black;
+  font-family: "Montserrat";
+  font-weight: 200;
+  border-radius: 5%;
+}
+.t-text p{
+  font-family: "Montserrat", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500 ;
+  font-size: 18px;
+}
+.h-text{
+  font-family: "DM Sans";
+  font-weight: 800;
+}
+.h-text h1{
+  font-size: 60px;
+  color: #03045e;
+}
+.h-text h6{
+  font-size: 22px;
+  font-weight: 600;
+}
+.h-text h5{
+  font-size: 25px;
+  font-weight: 600
+}
+label{
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 20px;
+}
+.ht-text{
+  font-family: "Sofia,sans-serif";
+  font-weight: 900 !important;
+  font-size: 40px;
+}
+.t-text h2{
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 40px;
+  color: #03045e;
+}
+.t-text a{
+  text-decoration: none;
+  color: #1e6083;
+}
+.t-text li{
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-weight: 500;
+}
+.bub-text p{
+  font-family: "DM Sans";
+  font-size: 20px;
+}
+.t-text a:hover{
+  text-decoration: none;
+  color: #52819b;
+}
+.abt-pic{
+  background-image: url("https://albertodavido.github.io/sibicareweb/images/hospital3.avif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.abt-text p{
+  font-weight: 600;
+  font-family: "Montserrat";
+}
+.partner-hero{
+  background-color: #03045e;
+  color: white;
+}
+.animator{
+  transform: translateY(100px);    /* Start 100px below */
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+}
+.animator.style{
+   transform: translateY(0);        /* Animate to original position */
+  opacity: 1;
+}
+.btn-text a{
+  font-family: "Montserrat";
+}
+.btn-style{
+ margin-bottom: auto;
+}
+.btn-style a {
+  background-color: #14603e;
+  font-family: "Montserrat";
+  color: white;
+  padding-top: auto;
+  
+}
+.btn-style a:hover {
+  background-color: #14603ecc;
+  font-family: "Montserrat";
+  color: white;
+  align-items: center;
+  
+}
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.whatsapp-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-icon:hover {
+  transform: scale(1.1);
+}
+.service-style{
+  background-color: rgb(237,246,238);
+  padding:  30px 2px; margin-right: auto;
+}
+.form-label{
+  font-family: "DM Sans";
+  font-weight: 600;
+}
+.form-control{
+  font-family: "DM Sans";
+}
+.btn-form input{
+  font-family: "DM Sans";
+  padding: 10px 45px;
+  border-radius: 9999px;
+}
+.form-check .form-label{
+  font-size: 16px;
+}
+.warn-text{
+  margin-top: 1px
+}
+.warn-text small{
+  padding-bottom: auto;
+}
+
+
+
+
+
+
+.whatsapp-widget-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            background-color: #25D366;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            border: none;
+        }
+        .whatsapp-widget-btn img {
+            width: 40px;
+            height: 40px;
+        }
+        .whatsapp-chat-window {
+            display: none;
+            position: fixed;
+            bottom: 90px;
+            right: 20px;
+            width: 300px;
+            height: 400px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            flex-direction: column;
+            z-index: 1000;
+            font-family: Arial, sans-serif;
+        }
+        .chat-header {
+            background-color: #25D366;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 16px;
+        }
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+        .chat-input {
+            padding: 10px;
+            border-top: 1px solid #ccc;
+            display: flex;
+            gap: 5px;
+        }
+        .chat-input input {
+            flex: 1;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .chat-input button {
+            padding: 5px 10px;
+            background-color: #25D366;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .message {
+            margin: 5px 0;
+            padding: 5px 10px;
+            border-radius: 5px;
+            max-width: 70%;
+        }
+        .sent {
+            background-color: #e9ecef;
+            margin-left: auto;
+        }
+        .received {
+            background-color: #d1e7dd;
+        }
+        @media (max-width: 600px) {
+            .whatsapp-chat-window {
+                width: 250px;
+                height: 350px;
+            }
+            .whatsapp-widget-btn {
+                width: 50px;
+                height: 50px;
+            }
+            .whatsapp-widget-btn img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+.partner-logo img{
+  background-color: white;
+  height: 90px;
+}
+.image-size img{
+  height: 90px;
+  width: 100px;
+}
+.footer-text h5{
+  font-family: "DM Sans";
+}
+.partner-logo{
+  background-color: white;
+}
+.item {
+  
+  height: 90px;
+  width: 100%;
+}
+.item-image{
+   height: 90px;
+  width: 100px;
+}
+.logo-align{
+  align-items: center;
+}
+.owl-carousel .item img {
+  filter: grayscale(100%);
+  transition: filter 0.5s ease;
+}
+
+.owl-carousel .item img:hover {
+  filter: grayscale(0%);
+}
+.owl-carousel .item-image img {
+  filter: grayscale(100%);
+  transition: filter 0.5s ease;
+}
+
+.owl-carousel .item-image img:hover {
+  filter: grayscale(0%);
+}
+
+.card{
+  border: none;
+}
+
+.section-class{
+  margin-top: 200px;
+}
+.footer-bottom{
+  display: flex;
+}
+.a-class a{
+  text-decoration: none;
+  color: white;
+}
+.a-class a:hover{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.822);
+}
+
+
