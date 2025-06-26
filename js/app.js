@@ -38,7 +38,7 @@ const dd=String(Today.getDate() + 1).padStart(2,'0');
 const minDate=`${yyyy}-${mm}-${dd}`;
 const fetchDate=document.getElementById('date-check');
 
-const getDate=document.getElementById('date-check').setAttribute('min',minDate);
+// const getDate=document.getElementById('date-check').setAttribute('min',minDate);
 
 // const startDate=document.getElementById('date-check');
 // console.log(startDate);
